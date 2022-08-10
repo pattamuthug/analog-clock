@@ -1,0 +1,663 @@
+#clock{
+    border: solid 15px black;
+    position: relative;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 8% auto 0;
+
+}
+#cen{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    margin: auto;
+    z-index: 10;
+
+}
+.large-icon1{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(0deg);
+    
+}
+.large1{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+.large-icon2{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(30deg);
+    
+}
+.large2{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+.large-icon3{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(60deg);
+    
+}
+.large3{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+.large-icon4{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(90deg);
+}
+.large4{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+.large-icon5{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(120deg);
+}
+.large5{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+.large-icon6{
+    top: -1.5px;
+    position: absolute;
+    width: 5px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(150deg);
+    
+}
+.large6{
+    width: 4px;
+    height: 20px;
+    background-color: black;
+}
+
+.small-icon1{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(6deg);
+    
+}
+.small1{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon2{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(12deg);
+    
+}
+.small2{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon3{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(18deg);
+    
+}
+.small3{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon4{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(24deg);
+    
+}
+.small4{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon5{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(36deg);
+    
+}
+.small5{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon6{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(42deg);
+    
+}
+.small6{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon7{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(48deg);
+    
+}
+.small7{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon8{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(54deg);
+    
+}
+.small8{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon9{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(66deg);
+    
+}
+.small9{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon10{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(72deg);
+    
+}
+.small10{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon11{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(78deg);
+    
+}
+.small11{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon12{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(84deg);
+    
+}
+.small12{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon13{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(96deg);
+    
+}
+.small13{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon14{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(102deg);
+    
+}
+.small14{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon15{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(108deg);
+    
+}
+.small15{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon16{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(114deg);
+    
+}
+.small16{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon17{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(126deg);
+    
+}
+.small17{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon18{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(132deg);
+    
+}
+.small18{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon19{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(138deg);
+    
+}
+.small19{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon20{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(144deg);
+    
+}
+.small20{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon21{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(156deg);
+    
+}
+.small21{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon22{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(162deg);
+    
+}
+.small22{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon23{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(168deg);
+    
+}
+.small23{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+.small-icon24{
+    top: -1.5px;
+    position: absolute;
+    width: 3px;
+    height: 402px;
+    left: 50%;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(174deg);
+    
+}
+.small24{
+    width: 3px;
+    height: 10px;
+    background-color: black;
+}
+#clock .numbers{
+    font-size: x-large ;
+    font-weight: bolder;
+}
+#clock .num12{
+    top: 20px;
+    left: 47%;
+    position: absolute;
+
+}
+#clock .num1{
+    top: 38px;
+    left: 69.5%;
+    position: absolute;
+}
+#clock .num2{
+    top: 25%;
+    left: 85%;
+    position: absolute;
+}
+#clock .num3{
+    top: 47%;
+    left: 91%;
+    position: absolute;
+}
+#clock .num4{
+    bottom: 25%;
+    left: 85%;
+    position: absolute;
+}
+#clock .num5{
+    bottom: 38px;
+    left: 70%;
+    position: absolute;
+}
+#clock .num6{
+    bottom: 20px;
+    left: 48.5%;
+    position: absolute;
+}
+#clock .num7{
+    bottom:38px ;
+    right: 70%;
+    position: absolute;
+}
+#clock .num8{
+    bottom: 25%;
+    right: 85%;
+    position: absolute;
+}
+#clock .num9{
+    top: 47%;
+    right: 91%;
+    position: absolute;
+}
+#clock .num10{
+    top: 25%;
+    right: 83%;
+    position: absolute;
+}
+#clock .num11{
+    top: 38px;
+    right: 67.5%;
+    position: absolute;
+}
+.sh{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 45%;
+    background-color: green;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    transform-origin: left;
+}
+.hh{
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 25%;
+    background-color: orangered;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    transform-origin: left;
+}
+.mh{
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 35%;
+    background-color: blue;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    transform-origin: left;
+}
